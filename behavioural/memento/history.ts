@@ -1,5 +1,5 @@
 import Stack from "ts-data.stack";
-import { EditorState } from "./editorState";
+import { EditorState } from "./editor-state";
 
 // Caretaker
 export class History {

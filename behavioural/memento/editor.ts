@@ -1,4 +1,4 @@
-import { EditorState } from "./editorState";
+import { EditorState } from "./editor-state";
 
 // Originator
 export class Editor {

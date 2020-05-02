@@ -1,6 +1,6 @@
 import { Canvas } from "./canvas";
-import { Selection } from "./selectionTool";
-import { Erase } from "./eraserTool";
+import { Selection } from "./selection.tool";
+import { Erase } from "./eraser.tool";
 
 describe("Givan a canvas. When it receive a tool. Should behaviour according to the tool", () => {
     it("selection tool", () => {
