@@ -1,5 +1,6 @@
 import { EditorState } from "./editorState";
 
+// Originator
 export class Editor {
     public content: string
 

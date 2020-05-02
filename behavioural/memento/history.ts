@@ -1,6 +1,7 @@
 import Stack from "ts-data.stack";
 import { EditorState } from "./editorState";
 
+// Caretaker
 export class History {
     states: Stack<EditorState>
 

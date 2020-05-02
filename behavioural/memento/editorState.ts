@@ -1,3 +1,4 @@
+// Memento
 export class EditorState {
     readonly _content: string;
 
