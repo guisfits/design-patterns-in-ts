@@ -13,7 +13,7 @@ export class BrowserHistory {
         this._stack.push(url);
     }
 
-    pop(): string {
+    back(): string {
         return this._stack.pop();
     }
 
