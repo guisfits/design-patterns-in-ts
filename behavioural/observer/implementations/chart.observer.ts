@@ -1,5 +1,5 @@
-import { Observer } from './observer';
-import { DataSource } from './data-source';
+import { DataSource } from './data-source.subject';
+import { Observer } from "../abstractions/observer";
 
 // Concrete Observer
 export class Chart implements Observer {

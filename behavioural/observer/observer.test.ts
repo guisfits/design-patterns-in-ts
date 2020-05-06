@@ -1,6 +1,6 @@
-import { DataSource } from './data-source';
-import { SpreadSheet } from './spread-sheet';
-import { Chart } from "./chart";
+import { SpreadSheet } from './implementations/spread-sheet.observer';
+import { DataSource } from './implementations/data-source.subject';
+import { Chart } from './implementations/chart.observer';
 
 test("Given many classes that depend on the same data source, We must notify these objects when this data changes", () => {
     // Arrange

@@ -1,5 +1,5 @@
-import { Observer } from './observer';
-import { DataSource } from './data-source';
+import { Observer } from "../abstractions/observer";
+import { DataSource } from "./data-source.subject";
 
 // Concrete Observer
 export class SpreadSheet implements Observer {

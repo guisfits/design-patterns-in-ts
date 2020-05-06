@@ -1,4 +1,4 @@
-import { Subject } from "./subject";
+import { Subject } from "../abstractions/subject";
 
 // Notify
 export class DataSource extends Subject {
